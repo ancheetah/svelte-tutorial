@@ -1,10 +1,11 @@
 <script>
-  let count = 0
-  const increment = () => {
-    count += 1
-  }
+	let count = 0;
+
+	function incrementCount() { // Event handler
+		count += 1;
+	}
 </script>
 
-<button on:click={increment}>
-  count is {count}
+<button on:click={incrementCount}>  <!-- Bind click to event handler -->
+	Clicked {count} {count === 1 ? 'time' : 'times'}
 </button>
