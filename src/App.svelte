@@ -1,6 +1,7 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import AddNumbers from './lib/AddNumbers.svelte';
 </script>
 
 <main>
@@ -16,6 +17,8 @@
 
   <div class="card">
     <Counter />
+    <hr/>
+    <AddNumbers/>
   </div>
 
   <p>
